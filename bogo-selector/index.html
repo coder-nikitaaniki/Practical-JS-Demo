@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Selector</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">YAY! It's BOGO</h1>
+        
+        <div class="options-container">
+            <!-- Single Unit Option -->
+            <div class="option-box" data-units="1">
+                <div class="option-header">
+                    <label class="radio-container">
+                        <input type="radio" name="unit-select" checked>
+                        <span class="radio-label">1 Unit</span>
+                        <span class="discount-tag">10% Off</span>
+                    </label>
+                    <span class="price">$10.00 USD</span>
+                    <span class="original-price">$24.00 USD</span>
+                </div>
+                <div class="option-content">
+                    <div class="size-color-grid">
+                        <div class="item">
+                            <span class="item-number">#1</span>
+                            <div class="selectors">
+                                <select class="size-select">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                                <select class="color-select">
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Two Unit Option -->
+            <div class="option-box active" data-units="2">
+                <div class="option-header">
+                    <label class="radio-container">
+                        <input type="radio" name="unit-select">
+                        <span class="radio-label">2 Unit</span>
+                        <span class="discount-tag">20% Off</span>
+                    </label>
+                    <span class="price">$18.00 USD</span>
+                    <span class="original-price">$24.00 USD</span>
+                </div>
+                <div class="option-content">
+                    <div class="size-color-grid">
+                        <div class="item">
+                            <span class="item-number">#1</span>
+                            <div class="selectors">
+                                <select class="size-select">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                                <select class="color-select">
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span class="item-number">#2</span>
+                            <div class="selectors">
+                                <select class="size-select">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                                <select class="color-select">
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Three Unit Option -->
+            <div class="option-box" data-units="3">
+                <div class="option-header">
+                    <label class="radio-container">
+                        <input type="radio" name="unit-select">
+                        <span class="radio-label">3 Unit</span>
+                        <span class="discount-tag">30% Off</span>
+                    </label>
+                    <span class="price">$24.00 USD</span>
+                    <span class="original-price">$24.00 USD</span>
+                </div>
+                <div class="option-content">
+                    <div class="size-color-grid">
+                        <div class="item">
+                            <span class="item-number">#1</span>
+                            <div class="selectors">
+                                <select class="size-select">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                                <select class="color-select">
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span class="item-number">#2</span>
+                            <div class="selectors">
+                                <select class="size-select">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                                <select class="color-select">
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span class="item-number">#3</span>
+                            <div class="selectors">
+                                <select class="size-select">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                                <select class="color-select">
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="delivery-info">Free Delivery</div>
+            <div class="total">Total: <span class="total-amount">$18.00 USD</span></div>
+            <button class="add-to-cart">Add to Cart</button>
+            <div class="powered-by">@ Powered by Pumper</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
